@@ -1,4 +1,4 @@
-FROM node:9
+FROM node:latest
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV CI=true
