@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV CI=true
 # headless chrome
 RUN apt-get update && apt-get install -yq libgconf-2-4
-RUN apt-get --yes install gconf-service \
+RUN apt-get --yes install build-essential gconf-service \
     libasound2 \
     libatk1.0-0 \
     libc6 \
